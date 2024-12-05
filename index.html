@@ -14,24 +14,27 @@
             <div class="border-base-300 flex justify-center border-t px-4 py-16">
                 <div class="mockup-phone border-primary">
                     <div class="camera"></div>
-                    <div class="display">
+                    <div class="display">  
                       <div class="artboard artboard-demo phone-1">
+                        <h1 class="font-extrabold text-2xl text-pink-500">Add Money Pages</h1>
+                        <p class="text-3xl font-normal text-blue-500">Amount :</p>
+                        <span id="main-balance" class="text-5xl font-extrabold text-black mb-10">10000</span>
                         <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                             <form class="card-body">
                               <div class="form-control">
                                 <label class="label">
                                   <span class="label-text">Amount</span>
                                 </label>
-                                <input type="email" placeholder="Amount" class="input input-bordered" required />
+                                <input id="amount-field" type="text" placeholder="Amount" class="input input-bordered" required />
                               </div>
                               <div class="form-control">
                                 <label class="label">
                                   <span class="label-text">Pin</span>
                                 </label>
-                                <input type="password" placeholder="Pin" class="input input-bordered" required />
+                                <input id="pin-field" type="password" placeholder="Pin" class="input input-bordered" required />
                               </div>
                               <div class="form-control mt-6">
-                                <button class="btn btn-primary">Login</button>
+                                <button id="log-btn" class="btn btn-primary">Login</button>
                               </div>
                             </form>
                           </div>
@@ -41,5 +44,7 @@
             </div>
           </div>
     </main>
+    <script src="./js/function-added.js"></script>
+    <script src="./js/dom.js"></script>
 </body>
 </html>
