@@ -7,7 +7,7 @@ document.getElementById('log-btn')
   if(addPin === 1234){
    const mainBalance = elementFieldId('main-balance');
   //  console.log(mainBalance)
-  const added = mainBalance + addMount;
+  const added = mainBalance - addMount;
   document.getElementById('main-balance').innerText = added;
   /* clear input field */
   document.getElementById('amount-field').value = '';
