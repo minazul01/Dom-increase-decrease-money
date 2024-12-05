@@ -22,13 +22,23 @@ document.getElementById('log-btn')
   p.classList.add('text-2xl')
   p.classList.add('my-8')
   p.classList.add('text-gray-400')
-  p.innerText = `Cash Out : ${addMount} TK. tottal balance ${added}`
+  p.innerText = `Add money : ${addMount} TK. tottal balance ${added}`
 
-  
+
   /* appen to html element */
    document.getElementById('added-transaction').appendChild(p);
+   /* alert transaction successful and unsuccessful */
+   const transaction = true;
+   if(transaction){
+    alert('your transaction successful');
+    return;
+   }else{
+     alert('your transaction not successful');
+     return;
+   }
    
   }else{
     alert('your amount or pin incorrect')
+    return;
   }
 })

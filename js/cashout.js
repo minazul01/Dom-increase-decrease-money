@@ -37,6 +37,15 @@ document.getElementById('log-btn')
   /* appen to html element */
    document.getElementById('added-transaction').appendChild(p);
 
+   /* alert transaction successful and unsuccessful */
+   const transaction = true;
+   if(transaction){
+    alert('your transaction successful');
+    return;
+   }else{
+     alert('your transaction not successful');
+     return;
+   }
 
 
   }else{
