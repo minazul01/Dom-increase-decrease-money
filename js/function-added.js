@@ -3,8 +3,11 @@ function inputIdField(id){
     const change = parseFloat(add);
     return change
 }
-function  elementIdfieldId(id){
-    const add = document.getElementById(id);
-    const change = parseFloat(add).innerText;
-    return change;
+  
+
+function elementFieldId(id){
+    const adds = document.getElementById(id);
+    const value = adds.innerText;
+    const ad = parseFloat(value);
+    return ad;
 }

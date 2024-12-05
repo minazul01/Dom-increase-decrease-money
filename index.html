@@ -18,7 +18,9 @@
                       <div class="artboard artboard-demo phone-1">
                         <h1 class="font-extrabold text-2xl text-pink-500">Add Money Pages</h1>
                         <p class="text-3xl font-normal text-blue-500">Amount :</p>
-                        <span id="main-balance" class="text-5xl font-extrabold text-black mb-10">10000</span>
+                        <span id="main-balance" class="text-5xl font-extrabold text-black mb-4">10000</span>
+                        <div><button class="btn mr-2">Add Money</button><button class="btn mr-2">transaction</button><button class="btn">Cash out</button></div>
+                        <br>
                         <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                             <form class="card-body">
                               <div class="form-control">
@@ -31,10 +33,10 @@
                                 <label class="label">
                                   <span class="label-text">Pin</span>
                                 </label>
-                                <input id="pin-field" type="password" placeholder="Pin" class="input input-bordered" required />
+                                <input id="pin-field" type="password" autocomplete="off" placeholder="Pin" class="input input-bordered" required />
                               </div>
                               <div class="form-control mt-6">
-                                <button id="log-btn" class="btn btn-primary">Login</button>
+                                <button id="log-btn" class="btn btn-primary">Submit</button>
                               </div>
                             </form>
                           </div>
